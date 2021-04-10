@@ -1380,7 +1380,7 @@ body {
   right: -150px;
 }
 
-.hire source{
+.hire source {
   width: 300px;
   height: 300px;
 }
@@ -4204,7 +4204,8 @@ body {
     display: inline;
   }
 
-  .form-img {
+  .hire picture {
+    right: 150px;
     top: 50%;
     left: 50%;
     margin-right: -50%;
@@ -4314,6 +4315,11 @@ body {
     display: none;
   }
 
+  .hire source {
+    width: 200px;
+    height: 200px;
+  }
+
   .form-img {
     width: 200px;
     height: 200px;
@@ -4372,6 +4378,11 @@ body {
 }
 
 @media (max-width: 600px) and (max-width: 415px) {
+  .hire source {
+    z-index: -1;
+    opacity: 0.3;
+  }
+
   .form-img {
     z-index: -1;
     opacity: 0.3;
