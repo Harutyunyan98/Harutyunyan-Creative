@@ -1377,7 +1377,7 @@ body {
 
 .hire picture {
   position: absolute;
-  right: -150px;
+  right: -130px;
 }
 
 .hire source {
@@ -4205,7 +4205,7 @@ body {
   }
 
   .hire picture {
-    right: 150px;
+    right: inherit;
     top: 50%;
     left: 50%;
     margin-right: -50%;
