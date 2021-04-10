@@ -1375,9 +1375,17 @@ body {
   text-align: center;
 }
 
-.form-img {
+.hire picture {
   position: absolute;
   right: -150px;
+}
+
+.hire source{
+  width: 300px;
+  height: 300px;
+}
+
+.form-img {
   width: 300px;
   height: 300px;
 }
